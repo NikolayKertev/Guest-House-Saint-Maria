@@ -26,14 +26,14 @@
 
     .table-div {
         div {
-        width: 90%;
+            width: 90%;
         }
     }
 
     .house-features {
         width: 85% !important;
     }
-    
+
     .first-div-home {
         padding-right: 1em;
     }
@@ -92,11 +92,6 @@
         margin: 0;
     }
 
-    .header-description {
-        width: 100% !important;
-        padding-top: 0;
-    }
-
     .menu-option {
         display: none;
     }
@@ -124,15 +119,21 @@
     }
 
     header {
-        min-height: 30% !important;
+        min-height: 40% !important;
     }
+
+    .header-description {
+        width: 100% !important;
+        padding-top: 0;
+    }
+
 
     .small-gallery img {
         pointer-events: none;
     }
 
     .phone-nav {
-        top: 40px;
+        top: 50px;
     }
 
     #menu-wrapper {
@@ -167,11 +168,11 @@
     }
 
     .phone-nav {
-        top: 30px;
+        top: 50px;
     }
 
     #menu-wrapper {
-        width: 30px;
+        width: 40px;
     }
 }
 
