@@ -20,12 +20,22 @@
         font-size: 12px;
     }
 
-    .first-div-home {
-        padding-right: 1em;
-    }
-
     header {
         position: relative;
+    }
+
+    .table-div {
+        div {
+        width: 90%;
+        }
+    }
+
+    .house-features {
+        width: 85% !important;
+    }
+    
+    .first-div-home {
+        padding-right: 1em;
     }
 
     .phone-nav {
@@ -34,7 +44,7 @@
         top: 50px;
         right: 10px;
         display: flex;
-        width: 30%;
+        width: 50%;
         padding: 0em;
         border-radius: 5px;
 
@@ -52,7 +62,7 @@
 
                 a {
                     width: 100%;
-                    height: 2em;
+                    height: 4em;
                     align-content: center;
                     color: rgb(209, 154, 124, 1);
                 }
@@ -83,7 +93,7 @@
     }
 
     .header-description {
-        width: 75% !important;
+        width: 100% !important;
         padding-top: 0;
     }
 
@@ -126,7 +136,7 @@
     }
 
     #menu-wrapper {
-        width: 30px;
+        width: 40px;
     }
 }
 
@@ -153,7 +163,7 @@
 
 @media (width <=500px) {
     html {
-        font-size: 8px;
+        font-size: 10px;
     }
 
     .phone-nav {
@@ -161,19 +171,7 @@
     }
 
     #menu-wrapper {
-        width: 20px;
-    }
-}
-
-@media (width <=400px) {
-    html {
-        font-size: 7px;
-    }
-}
-
-@media (width <=330px) {
-    html {
-        font-size: 6px;
+        width: 30px;
     }
 }
 

@@ -149,7 +149,7 @@ main {
         }
     }
 
-    .house-feautures {
+    .house-features {
         display: flex;
         flex-direction: column;
         margin: 6em 4em 2em 4em;
@@ -243,7 +243,7 @@ main {
 }
 
 footer {
-    height: 5em;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -256,9 +256,9 @@ footer {
     font-size: 1em;
 
     a {
+        font-size: 1.2em;
         text-decoration: none;
         color: rgba(209, 154, 124, 0.9);
-
     }
 
     a:hover {
@@ -266,7 +266,7 @@ footer {
     }
 }
 
-.house-feautures,
+.house-features,
 .location {
     min-height: 80%;
 }
