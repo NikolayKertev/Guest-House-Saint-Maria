@@ -14,7 +14,7 @@ html {
 body {
     font: inherit;
     height: 100vh;
-    min-width: 300px;
+    min-width: 320px;
 }
 
 header {
@@ -75,6 +75,26 @@ header {
         font-weight: 800;
         color: rgba(255, 255, 255, 0.9);
         text-decoration: none;
+    }
+
+    .phone-language {
+        display: none;
+    }
+
+    .flag_icon {
+        width: 2.5em;
+        height: auto;
+        margin: 0;
+        top: 1.5em;
+        border-radius: 0.5em;
+
+        transition: transform 330ms ease-in-out,
+            opacity 330ms ease-in-out;
+    }
+
+    .flag_icon:hover {
+        transform: scale(110%);
+        opacity: 90%;
     }
 
     .header-description {

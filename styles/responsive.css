@@ -24,6 +24,18 @@
         position: relative;
     }
 
+    .phone-language {
+        display: inline-block !important;
+        position: absolute;
+        top: 15px;
+        right: 95px;
+
+        .flag_icon {
+            top: 0px;
+            width: 40px;
+        }
+    }
+
     .table-div {
         div {
             width: 90%;
@@ -170,9 +182,43 @@
     .phone-nav {
         top: 50px;
     }
+}
+
+@media (width <=400px) {
+
+    html {
+        font-size: 9px;
+    }
+
+    .phone-language {
+        right: 85px;
+    }
+
+    .flag_icon {
+        width: 35px !important;
+    }
 
     #menu-wrapper {
-        width: 40px;
+        width: 35px;
+    }
+}
+
+@media (width <=350px) {
+
+    html {
+        font-size: 8.5px;
+    }
+
+    .phone-language {
+        right: 75px;
+    }
+
+    .flag_icon {
+        width: 30px !important;
+    }
+
+    #menu-wrapper {
+        width: 30px;
     }
 }
 
